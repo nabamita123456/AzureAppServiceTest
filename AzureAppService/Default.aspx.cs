@@ -16,7 +16,7 @@ namespace AzureAppService
 
         protected void btnShow_Click(object sender, EventArgs e)
         {
-            dvTxt.InnerHtml = "Welcome here" + txtUsername.Text;
+            dvTxt.InnerHtml = "Welcome here " + txtUsername.Text;
         }
     }
 }
